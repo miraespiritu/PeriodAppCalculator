@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95B298"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choices_layout"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TW"
+            android:textStyle="bold"
+            android:text="Number of waste you can save: "
+            android:textColor="@color/black"
+            android:textSize="24dp"
+
+            android:layout_margin="20dp"
+            android:layout_above="@id/choices_layout"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TW"
+            android:textStyle="bold"
+            android:text="12,090"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+
+            android:layout_margin="20dp"
+            android:layout_above="@id/choices_layout"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/MPA"
+            android:textStyle="bold"
+            android:text="How much you can save by switching to reusable menstrual products"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+
+            android:layout_margin="20dp"
+            android:layout_above="@id/choices_layout"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TW"
+            android:textStyle="bold"
+            android:text="$1,054.38"
+            android:textColor="@color/white"
+        android:textSize="40dp"
+
+        android:layout_margin="20dp"
+        android:layout_above="@id/choices_layout"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
